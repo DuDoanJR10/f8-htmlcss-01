@@ -610,9 +610,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f9f9f9;
     border-radius: 3px;
     height: 28px;
     width: 28px;
+}
+
+.footer .social-link + .social-link {
+    margin-left: 16px;
 }
 
 .footer .social-link:hover {
