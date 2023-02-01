@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>F8 Project 01</title>
+        <!-- <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script> -->
         <!-- Reset CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- Embed fonts -->
@@ -16,19 +17,19 @@
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
     <body>
-        <main>
+        <main id="home">
             <header class="fixed-header">
                 <div class="content">
                     <nav class="navbar">
-                        <a href="#!">
+                        <a href="#home">
                             <img src="./assets/img/logo.svg" alt="Besnik." />
                         </a>
                         <ul>
-                            <li><a href="#!">Home</a></li>
-                            <li><a href="#!">Features</a></li>
-                            <li><a href="#!">Services</a></li>
-                            <li><a href="#!">Resources</a></li>
-                            <li><a href="#!">Contact</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#resources">Resources</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                         <!-- Action -->
                         <div class="actions">
@@ -97,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="guides">
+            <div id="services" class="guides">
                 <div class="content">
                     <h2 class="sub-title">How its works?</h2>
                     <p class="desc">
@@ -137,7 +138,7 @@
                 </div>
             </div>
 
-            <div class="featured">
+            <div id="features" class="featured">
                 <div class="content">
                     <header>
                         <h2 class="sub-title">Featured Properties</h2>
@@ -222,7 +223,7 @@
                 </div>
             </div>
 
-            <div class="stats">
+            <div id="resources" class="stats">
                 <div class="content">
                     <div class="row">
                         <div class="img-block">
@@ -302,7 +303,7 @@
                 </div>
             </div>
 
-            <div class="subscription">
+            <div id="contact" class="subscription">
                 <div class="content">
                     <div class="body">
                         <div class="info">
